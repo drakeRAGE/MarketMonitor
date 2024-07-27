@@ -184,7 +184,7 @@ const App = () => {
     <div className="min-h-screen bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 flex flex-col md:flex-row items-start p-6">
       <div className="flex-1">
         <h1 className="text-4xl font-extrabold text-center my-6 text-gray-900">
-          Real-Time Stock Market App
+          MarketMonitor
         </h1>
 
         {/* Current Price and Change Display */}
@@ -230,7 +230,7 @@ const App = () => {
           />
           <button
             onClick={fetchStockData}
-            className="p-3 bg-indigo-500 text-white rounded-md shadow-sm hover:bg-indigo-600 transition"
+            className="p-3 bg-indigo-500 text-white ml-2 rounded-md shadow-sm hover:bg-indigo-600 transition"
           >
             Fetch Data
           </button>
@@ -301,7 +301,7 @@ const App = () => {
         
       </div>
 
-      <div className="w-full md:w-1/3 bg-white rounded-lg shadow-md p-4 ml-6 flex flex-col space-y-6">
+      <div className="w-full md:w-1/3 mt-20 bg-white rounded-lg shadow-md p-4 ml-6 flex flex-col space-y-6">
         {/* Current Stock Information */}
         <div className="bg-gray-100 p-4 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Current Stock Information</h2>
